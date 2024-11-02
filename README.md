@@ -1,14 +1,14 @@
 # DATA-DRIVEN ANALYSIS OF A BEVERAGE RETAILER
 
 ## Overview
-The project provides a comprehensive overview of a Beverage Retailer specialized in coffee, spanning from January 2019 to August 2011, offering insights into key performance indicators such as total sales, customer loyalty, sales trends over time, top-performing customers, product popularity, and geographical sales distribution.
+The project provides a comprehensive overview of a Beverage Retailer specialized in coffee, spanning from January 2019 to August 2021, offering insights into key performance indicators such as total sales, customer loyalty, sales trends over time, top-performing customers, product popularity, and geographical sales distribution.
 
-The Beverage Retail operates across three countries, serving a broad customer base.
+The Beverage Retailer operates across three countries, serving a broad customer base.
 
 The analysis was conducted using Microsoft Excel, leveraging its data analytics capabilities to visualize trends and support data-driven decision-making.
 
 The analysis is based on an online database which can be downloaded [here](https://www.kaggle.com/datasets/mohammadkaiftahir/coffee-orders-data). <br>
-The dashboard can be downloaded here (INSER LINK OR EMBEDD)
+The whole Excel file can be downloaded [here](Retailer_Sales_Dashboard.xlsx).
 
 ## **Table of Contents** <br>
 - [Dataset](#dataset) <br>
@@ -22,16 +22,17 @@ This database consists of three sheets: “orders”, “customers”, and “pr
 
 + “Orders” contains all order details, including quantity, order date, and unique customer and product IDs
 + “Customers” lists customer information such as name, email, phone number, city, address, postal code, and country
-+ “products” includes the available products, with the respective coffee type, roast type, size, unit price, price per 100g and profit
++ “products” includes the available products, with the respective coffee type, roast type, size, unit price, price per 100g, and profit
 
 ![image3](https://github.com/user-attachments/assets/f841f2de-4412-49de-82f6-d777c7dde9e0)
 
 
 ![image1](https://github.com/user-attachments/assets/d753771a-abb2-4122-b8cd-699e5be00ec4)
 
+
 ![image4](https://github.com/user-attachments/assets/be469a97-a648-4064-a262-3daad2a63e72)
 
-The database was found to be in optimal condition, with records accurately free from any formatting inconsistencies or outliers that might skew analysis. <br>
+The database was found to be in optimal condition, with records accurately free from any formatting inconsistencies or outliers that might skew the analysis. <br>
 Given that the dataset met high standards of accuracy and consistency, there was no need for an additional data-cleaning process.
 
 ## Methodology
@@ -48,9 +49,9 @@ For missing email addresses, I used an IF formula to replace empty values (0) wi
 
 ![image2](https://github.com/user-attachments/assets/9f589dcf-b685-46eb-9d2c-45d6a696c976)
 
-To calculate values in column M “Sales”, I multiplied the united times the quantity sold for each row.
+To calculate values in column M “Sales”, I multiplied the unit price by the quantity sold for each row
 
-Another necessary adjustment was standardizing the date format. Since the dataset includes both USA and Ireland, where date formats differ (MM/DD/YYYY for the former and DD/MM/YYYY for the latter), I modified the format to include the month abbreviation to ensure clarity and consistency across all records. <br>
+Another necessary adjustment was standardizing the date format. Since the dataset includes both the USA and Ireland, where date formats differ (MM/DD/YYYY for the former and DD/MM/YYYY for the latter), I modified the format to include the month abbreviation to ensure clarity and consistency across all records. <br>
 I made a similar adjustment to the Size column, which initially lacked a unit of measurement. I added “kg” as the unit and standardized the format to one decimal place. <br>
 For the Unit Price and Sales columns, I ensured all values were displayed in USD with two decimal places for accuracy. <br>
 
@@ -81,11 +82,11 @@ Lastly, I applied finishing touches to the dashboard by removing unnecessary gri
 
 Below are the major insights from the analysis that highlight the company's performance and suggest ways to enhance the business strategy.
 
-+ The analysis shows that 48.7% of customers hold a loyalty card, reflecting strong customer engagement. This high percentage highlights the importance of nurturing this loyal customer base. To further capitalize on this, the Marketing Department should consider offering exclusive discounts and promotions to loyalty cardholders, ensuring sustained patronage. Additionally, leveraging the available customer emails can further reinforce engagement and retention, by offering loyalty programs with exclusive benefits and rewards.
++ The analysis shows that 48.7% of customers hold a Loyalty Card, reflecting strong customer engagement. This high percentage highlights the importance of nurturing this loyal customer base. To further capitalize on this, the Marketing Department should consider offering exclusive discounts and promotions to loyalty cardholders, ensuring sustained patronage. Additionally, leveraging the available customer emails can further reinforce engagement and retention, by offering loyalty programs with exclusive benefits and rewards.
 + There isn’t a strong difference between the four different types of coffee types. Arabica, Excelsa and Liberica are all nearly similar in terms of sales, while Robusta is slightly behind. There is potential to grow Arabica sales by promoting its unique qualities.  It's known for its delicate flavor profile, with notes of fruit, chocolate, and nuts. It's often considered the premium coffee bean, resulting in a higher price compared to other varieties, and this could be an important asset to consider. I recommend positioning Arabica as a premium product and exploring bundled deals or promotions to boost sales, while maximizing the success of Excelsa and Robusta, which have solid demand.
-+ The US alone account for 79% of the sales, indicating a strong domestic market. Perhaps it would be easiest to maintain the US base while continuing the expansion overseas in Ireland and the UK, as well as to tap into new markets. Canada, Australia, and New Zealand would be the most likely next countries as they are English-speaking countries and they are culturally, socially, and economically similar to the markets where we are already present.
-+ Sales have fluctuate over time, with spikes in April 2019 and February 2020, while sales dropped during some months, particularly in August 2020. More in dept-analysis are needed for those relevant fluctuations, and figure out if, for example promotions or seasonal menus can help reverse this trend. In 2021, with an increase of more than 10% compared to the previous year, the sales were at the highest. Although sales in 2021 increased by over 10% compared to the previous year, the figures for 2022 (up to August) indicate a potential decline. This trend calls for immediate action to reverse the downturn.
-+ Allis Wilmore ranks as the top customer by sales. The top customers provide significant revenue, but there's not a huge disparity between them, suggesting a fairly even distribution of sales. The main opportunity is to build loyalty programs or offering personalized promotions for these customers, as it could help maintain their engagement and eventually increase sales.
++ The US alone accounts for 79% of the sales, indicating a strong domestic market. Perhaps it would be easier to maintain the US base while continuing the expansion overseas in Ireland and the UK, as well as to tap into new markets. Canada, Australia, and New Zealand would be the most likely next countries as they are English-speaking countries and they are culturally, socially, and economically similar to the markets where we are already present.
++ Sales have fluctuated over time, with spikes in April 2019 and February 2020, while sales dropped during some months, particularly in August 2020. More in-depth analysis are needed for those relevant fluctuations, and figure out if, for example promotions or seasonal menus can help reverse this trend. In 2021, with an increase of more than 10% compared to the previous year, the sales were at the highest. Although sales in 2021 increased by over 10% compared to the previous year, the figures for 2022 (up to August) indicate a potential decline. This trend calls for immediate action to reverse the downturn.
++ Allis Wilmore ranks as the top customer by sales. The top customers provide significant revenue, but there's not a huge disparity between them, suggesting a fairly even sales distribution. The main opportunity is to build loyalty programs or offer personalized promotions for these customers, as it could help maintain their engagement and eventually increase sales.
 
 ![image10](https://github.com/user-attachments/assets/d1e08909-d6ea-43ae-a88d-3143a121ad2d)
 
