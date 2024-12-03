@@ -20,8 +20,8 @@ The whole Excel file can be downloaded [here](Retailer_Sales_Dashboard.xlsx).
 The database has been downloaded from Kaggle, which is a popular website offering thousands of copyright-free databases.
 This database consists of three sheets: “orders”, “customers”, and “products”. Please refer to the images below for more details.
 
-+ “Orders” contains all order details, including quantity, order date, and unique customer and product IDs
-+ “Customers” lists customer information such as name, email, phone number, city, address, postal code, and country
++ “orders” contains all order details, including quantity, order date, and unique customer and product IDs
++ “customers” lists customer information such as name, email, phone number, city, address, postal code, and country
 + “products” includes the available products, with the respective coffee type, roast type, size, unit price, price per 100g, and profit
 
 ![image3](https://github.com/user-attachments/assets/f841f2de-4412-49de-82f6-d777c7dde9e0)
