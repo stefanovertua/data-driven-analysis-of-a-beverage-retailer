@@ -68,7 +68,7 @@ The final result of these transformations is displayed in the image below. <br>
 
 With the data transformation complete, I proceeded to create pivot tables. The three pivot tables that I have created show the total sales by year and by coffee type, the top countries in terms of sales and the top customers by sales. 
 
-I then developed visual representations of these tables, adjusting the design to ensure a consistent, coherent, and visually appealing dashboard, while maintaining clarity for ease of analysis
+I then developed visual representations of these tables, adjusting the design to ensure a consistent, coherent, and visually appealing dashboard, while maintaining clarity for ease of analysis.
 
 The dashboard contains the following metrics: the total sales over time, the top customers by sales, the sales by country, and the percentage of customers holding the Loyalty Card. Additionally, I integrated three slicers to enhance interactivity, allowing users to filter the data by roast type, size, and Loyalty Card membership. A date slicer was also added, enabling to filter data for a specific time period.
 
