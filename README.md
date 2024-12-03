@@ -76,7 +76,7 @@ The card graphs of the total sales and the % of clients with the Loyalty Card ar
 
 ![image6](https://github.com/user-attachments/assets/ee6bcfed-3cbf-4196-9201-80485b2aedfe)
 
-Lastly, I applied finishing touches to the dashboard by removing unnecessary gridlines, hiding the ribbons, and disabling the row and column header
+Lastly, I applied finishing touches to the dashboard by removing unnecessary gridlines, hiding the ribbons, and disabling the row and column header.
 
 ## Executive Summary & Recommendations
 
