@@ -49,7 +49,7 @@ For missing email addresses, I used an IF formula to replace empty values (0) wi
 
 ![image2](https://github.com/user-attachments/assets/9f589dcf-b685-46eb-9d2c-45d6a696c976)
 
-To calculate values in column M “Sales”, I multiplied the unit price by the quantity sold for each row
+To calculate values in column M “Sales”, I multiplied the unit price by the quantity sold for each row.
 
 Another necessary adjustment was standardizing the date format. Since the dataset includes both the USA and Ireland, where date formats differ (MM/DD/YYYY for the former and DD/MM/YYYY for the latter), I modified the format to include the month abbreviation to ensure clarity and consistency across all records. <br>
 I made a similar adjustment to the "Size" column, which initially lacked a unit of measurement. I added “kg” as the unit, and standardized the format to a single decimal place. <br>
