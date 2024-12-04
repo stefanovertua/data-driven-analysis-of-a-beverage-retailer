@@ -58,7 +58,7 @@ For the "Unit Price" and "Sales" columns, I ensured all values were displayed in
 In the original dataset, both the “Coffee Type Name” and “Roast Type Name” columns contained text that was made up of the abbreviation of just three letters. <br>
 To enhance clarity and simplicity, I created two new columns with the full names for each entry in the "Coffee Type" and "Roast Type" columns. <br>
 
-Additionally, I introduced a “Loyalty Card?” column to clearly identify which customers are loyalty members. This allows for further analysis of whether loyalty members spend more or purchase more frequently than non-members. Once again, I used XLOOKUP for this process. <br>
+Additionally, I introduced a “Loyalty Card?” column to clearly identify which customers are loyalty members. This allows for further analysis of whether loyalty members spend more or purchase more frequently than non-members. Once again, I used XLOOKUP to complete this process. <br>
 
 Finally, I performed a duplicate check and confirmed that no duplicates were found. <br>
 
@@ -76,7 +76,7 @@ The card graphs of the total sales and the % of clients with the Loyalty Card ar
 
 ![image6](https://github.com/user-attachments/assets/ee6bcfed-3cbf-4196-9201-80485b2aedfe)
 
-Lastly, I applied finishing touches to the dashboard by removing unnecessary gridlines, hiding the ribbons, and disabling the row and column header.
+Lastly, I applied finishing touches to the dashboard by removing unnecessary gridlines, hiding the ribbons, and disabling the row and column headers.
 
 ## Executive Summary & Recommendations
 
@@ -84,8 +84,8 @@ Below are the major insights from the analysis that highlight the company's perf
 
 + The analysis shows that 48.7% of customers hold a Loyalty Card, reflecting strong customer engagement. This high percentage highlights the importance of nurturing this loyal customer base. To further capitalize on this, the Marketing Department should consider offering exclusive discounts and promotions to loyalty cardholders, ensuring sustained patronage. Additionally, leveraging the available customer emails can further reinforce engagement and retention, by offering loyalty programs with exclusive benefits and rewards.
 + There isn’t a significant difference between the four different types of coffee types. Arabica, Excelsa and Liberica are all nearly similar in terms of sales, while Robusta is slightly behind. There is potential to grow Arabica sales by promoting its unique qualities.  It's known for its delicate flavor profile, with notes of fruit, chocolate, and nuts. It's often considered the premium coffee bean, resulting in a higher price compared to other varieties, and this could be an important asset to consider. I recommend positioning Arabica as a premium product and exploring bundled deals or promotions to boost sales, while maximizing the success of Excelsa and Robusta, which have solid demand.
-+ The US alone accounts for 79% of the sales, indicating a strong domestic market. Perhaps it would be easier to maintain the US base while continuing the expansion overseas in Ireland and the UK, as well as to tap into new markets. Canada, Australia, and New Zealand would be the most likely next countries as they are English-speaking countries and they are culturally, socially, and economically similar to the markets where the firm is already present.
-+ Sales have fluctuated over time, with spikes in April 2019 and February 2020, while sales dropped during some months, particularly in August 2020. More in-depth analyses are needed for those relevant fluctuations and figure out if, for example, promotions or seasonal menus can help reverse this trend. In 2021, with an increase of more than 10% compared to the previous year, the sales were at the highest. Although sales in 2021 increased by over 10% compared to the previous year, the figures for 2022 (up to August) indicate a potential decline. This trend calls for immediate action to reverse the downturn.
++ The US alone accounts for 79% of the sales, indicating a strong domestic market. Perhaps it would be easier to maintain the US base while continuing the expansion overseas in Ireland and the UK, as well as tapping into new markets. Canada, Australia, and New Zealand would be the most likely next countries as they are English-speaking countries and they are culturally, socially, and economically similar to the markets where the firm is already present.
++ Sales have fluctuated over time, with spikes in April 2019 and February 2020, while sales dropped during some months, particularly in August 2020. More in-depth analyses are needed for those relevant fluctuations and to figure out if, for example, promotions or seasonal menus can help reverse this trend. In 2021, with an increase of more than 10% compared to the previous year, the sales were at the highest. Although sales in 2021 increased by over 10% compared to the previous year, the figures for 2022 (up to August) indicate a potential decline. This trend calls for immediate action to reverse the downturn.
 + Allis Wilmore ranks as the top customer by sales. The top customers provide significant revenue, but there's not a huge disparity between them, suggesting a fairly even sales distribution. The main opportunity is to build loyalty programs or offer personalized promotions for these customers, as it could help maintain their engagement and eventually increase sales.
 
 ![image10](https://github.com/user-attachments/assets/d1e08909-d6ea-43ae-a88d-3143a121ad2d)
