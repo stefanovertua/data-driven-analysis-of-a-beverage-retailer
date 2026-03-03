@@ -1,7 +1,7 @@
 # DATA-DRIVEN ANALYSIS OF A BEVERAGE RETAILER
 
 ## Overview
-The project provides a comprehensive overview of a Beverage Retailer specialized in coffee, spanning from January 2019 to August 2021, offering insights into key performance indicators such as total sales, customer loyalty, sales trends over time, top-performing customers, product popularity, and geographical sales distribution.
+The project provides a comprehensive overview of a Beverage Retailer specialized in coffee, spanning from January 2019 to August 2022, offering insights into key performance indicators such as total sales, customer loyalty, sales trends over time, top-performing customers, product popularity, and geographical sales distribution.
 
 The Beverage Retailer operates across three countries, serving a broad customer base.
 
