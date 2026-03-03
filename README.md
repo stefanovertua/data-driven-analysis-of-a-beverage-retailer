@@ -32,8 +32,7 @@ This database consists of three sheets: “orders”, “customers”, and “pr
 
 ![image4](https://github.com/user-attachments/assets/be469a97-a648-4064-a262-3daad2a63e72)
 
-The database was found to be in optimal condition, with records accurately free from any formatting inconsistencies or outliers that might skew the analysis. <br>
-Given that the dataset met high standards of accuracy and consistency, there was no need for an additional data-cleaning process.
+The database is free from any formatting inconsistencies or outliers that might skew the analysis. <br>
 
 ## Methodology
 
