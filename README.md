@@ -1,4 +1,4 @@
-# BEVERAGE RETAILER PERFORMANCE ANALYSIS: SALES, LOYALTY & MARKET TRENDS | EXCEL DASHBOARD
+# Beverage Retailer Performance Analysis: Sales, Loyalty & Market Trends | Excel Dashboard
 
 ## Overview
 The project provides a comprehensive overview of a Beverage Retailer specialized in coffee, spanning from January 2019 to August 2022, offering insights into key performance indicators such as total sales, customer loyalty, sales trends over time, top-performing customers, product popularity, and geographical sales distribution.
